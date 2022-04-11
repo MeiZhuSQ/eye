@@ -5,54 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3d56dbc-056b-45fe-a89c-a272d88342d0" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/front/images/eye2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/DimpleBlog.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dimple/common/utils/QQUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dimple/common/utils/QQUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dimple/common/utils/http/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dimple/common/utils/http/HttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dimple/project/front/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dimple/project/front/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/blog/blog/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/blog/blog/BlogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/front/js/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/js/comment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog/blog/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog/blog/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog/blog/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog/blog/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/chart/business/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/chart/business/business.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/front/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/front/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/front/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/front/archives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/front/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/front/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/front/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/front/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/front/leaveComment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/front/leaveComment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/front/link.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/front/link.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/front/other/copyright.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/front/other/copyright.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/front/other/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/front/other/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/front/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/front/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/front/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/front/tag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/include-front.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/include-front.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dimple/common/utils/QQUtil$QQInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dimple/common/utils/QQUtil$QQInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dimple/common/utils/QQUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dimple/common/utils/QQUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dimple/common/utils/http/HttpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dimple/common/utils/http/HttpUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dimple/project/front/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dimple/project/front/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/blog/blog/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/blog/blog/BlogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/front/js/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/front/js/comment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/blog/blog/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blog/blog/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/blog/blog/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blog/blog/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/chart/business/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/chart/business/business.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/front/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/front/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/front/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/front/archives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/front/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/front/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/front/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/front/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/front/leaveComment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/front/leaveComment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/front/link.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/front/link.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/front/other/copyright.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/front/other/copyright.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/front/other/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/front/other/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/front/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/front/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/front/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/front/tag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/include-front.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/include-front.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +22,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -119,7 +76,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -183,7 +140,7 @@
       <workItem from="1649233527260" duration="597000" />
       <workItem from="1649320875462" duration="181000" />
       <workItem from="1649414973962" duration="1186000" />
-      <workItem from="1649645674436" duration="453000" />
+      <workItem from="1649645674436" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1646290579804</created>
@@ -192,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646290579804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1649646153326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649646153326</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
