@@ -19,7 +19,8 @@ import java.io.Serializable;
 @Slf4j
 public final class QQUtil {
     //QQ 头像和昵称查询地址
-    private static final String QQ_QUERY_URL = "https://users.qzone.qq.com/fcg-bin/cgi_get_portrait.fcg";
+    //private static final String QQ_QUERY_URL = "https://users.qzone.qq.com/fcg-bin/cgi_get_portrait.fcg";
+    private static final String QQ_QUERY_URL = "https://r.qzone.qq.com/fcg-bin/cgi_get_portrait.fcg";
 
     @Data
     @AllArgsConstructor

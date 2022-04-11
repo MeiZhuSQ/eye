@@ -4,7 +4,7 @@ function initCommentEditor(space) {
         '                <form id="myform">\n' +
         '                    <div class="select_star_wrap ">\n' +
         '                        <div class="select_star">\n' +
-        '                            <span class="sp">信息获取：</span>\n' +
+        '                            <span class="sp">QQ号码：</span>\n' +
         '                            <span class="i_star_0">\n' +
         '                                <input name="qqNum" type="number" id="qqNum" class="text" value="" maxlength="49"\n' +
         '                                       placeholder="填入qq自动获取信息" tabindex="0">\n' +
@@ -27,17 +27,17 @@ function initCommentEditor(space) {
         '                                <span class="sel_check_form" data-name="is_email"\n' +
         '                                      style="position: relative;left: 8px;top: 8px;">\n' +
         '\t\t\t\t                    <span class="display0">\n' +
-        '                                        <input type="checkbox" id="notice" name="notice"\n' +
+        '                                        <input type="hidden" id="notice" name="notice"\n' +
         '                                               value="1" checked="">\n' +
         '                                    </span>\n' +
-        '                   <span class="gx_check current" data-val="1">邮件通知</span>\n' +
+        '                   <span class="gx_check current" data-val="1"></span>\n' +
         '                </span>\n' +
         '                            </span>\n' +
         '                        </div>\n' +
         '                        <div class="select_star right">\n' +
-        '                            <span class="sp">您的网站：</span>\n' +
+        '                            <span class="sp"></span>\n' +
         '                            <span class="i_star_0">\n' +
-        '                                <input name="u_url" type="text" class="text" id="u_url" maxlength="35" value=""\n' +
+        '                                <input name="u_url" type="hidden" class="text" id="u_url" maxlength="35" value=""\n' +
         '                                       placeholder="您的网站 选填">\n' +
         '                            </span>\n' +
         '                        </div>\n' +

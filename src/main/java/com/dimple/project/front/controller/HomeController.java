@@ -105,8 +105,8 @@ public class HomeController extends BaseController {
         Session session = ShiroUtils.getSession();
         String sessionId = ShiroUtils.getSessionId();
         OnlineSession onlineSession = (OnlineSession) onlineSessionDAO.readSession(sessionId);
-        User user = getSysUser();
-        model.addAttribute("user", user);
+        /*User user = getSysUser();
+        model.addAttribute("user", user);*/
         return "front/index";
     }
 
@@ -135,6 +135,8 @@ public class HomeController extends BaseController {
     public String archives(Model model) {
         setCommonMessage(model);
         model.addAttribute("archives", homeService.selectArchives());
+        User user = getSysUser();
+        model.addAttribute("user", user);
         return "front/archives";
     }
 

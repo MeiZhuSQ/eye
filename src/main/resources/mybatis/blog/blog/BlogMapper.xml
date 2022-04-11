@@ -182,7 +182,7 @@
     </select>
 
     <select id="selectNewestUpdateBlog" resultType="com.dimple.project.blog.blog.domain.Blog">
-        select blog_id, title,update_time from bg_blog order by  update_time  desc limit #{i}
+        select blog_id, title,create_by, update_time from bg_blog order by  update_time  desc limit #{i}
     </select>
     <select id="selectBlogRankingList" resultType="com.dimple.project.blog.blog.domain.Blog">
         select blog_id,title,click from bg_blog order by click desc limit #{i}

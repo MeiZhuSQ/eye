@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh" xmlns:th="https://www.thymeleaf.org">
 <head>
-    <th:block th:include="include-front :: head(${blog.title+'—Dimple的个人博客'},${blog.summary})"/>
+    <th:block th:include="include-front :: head(${blog.title+'—Dimple的个人资讯'},${blog.summary})"/>
     <th:block th:include="include-front :: highlight-css"/>
     <th:block th:include="include-front :: highlight-js"/>
     <link rel="stylesheet" th:href="@{/front/css/comment.css}"/>
@@ -238,7 +238,7 @@
 <div class="shang_box">
     <a class="shang_close" href="javascript:void(0)" onclick="dashangToggle()" title="关闭"><img
             src="/front/images/close.jpg" alt="取消"></a>
-    <img class="shang_logo" src="/front/images/logo2.jpg" alt="Dimple 的个人博客"/>
+    <img class="shang_logo" src="/front/images/logo2.jpg" alt="Dimple 的个人资讯"/>
     <div class="shang_tit">
         <p>感谢</p>
     </div>
@@ -332,7 +332,7 @@
         if (display == false) {
             $(".comment-reply").remove();
             $("#CommentEditor").remove();
-            $("#Space").append("<div style='border: 1px solid #ff6700;padding-top: 30px; padding-bottom: 30px;text-align: center;font-size: 24px;'>管理员设置当前博客禁止评论</div>");
+            $("#Space").append("<div style='border: 1px solid #ff6700;padding-top: 30px; padding-bottom: 30px;text-align: center;font-size: 24px;'>管理员设置当前资讯禁止评论</div>");
         } else {
             initCommentEditor("#Space");
         }

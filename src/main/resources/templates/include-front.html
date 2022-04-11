@@ -196,9 +196,9 @@
     </script>
 </footer>
 
-<aside class="myaside" th:fragment="side">
+<aside class="myaside" th:fragment="side" >
     <!--个人信息-->
-    <div class="web-author bg-color animation-div">
+    <div class="web-author bg-color animation-div" th:if="${user!=null}">
         <div class="author-tx">
             <a class="img-circle" href="/f/about.html" title="点击查看详细信息">
                 <img class="img-circle" src="/front/images/ava.png"/>
@@ -210,7 +210,7 @@
         </div>
     </div>
     <!--关注我-->
-    <div class="focus-me bg-color animation-div">
+    <div class="focus-me bg-color animation-div" th:if="${user!=null}">
         <h4 class="index-title"><i class="fa fa-heart"></i>关注我
             <small>Focus Me</small>
         </h4>
@@ -279,8 +279,8 @@
                         src="https://i.tianqi.com/index.php?c=code&id=34&icon=1&num=3"></iframe>
             </li>
             <li th:each="blog:${newestUpdateBlog}">
-                <span><i class="fa fa-arrow-up"></i>最近：<font class="blue-text">边小丰</font><span
-                        th:text="${#dates.format(blog.updateTime, 'MM-dd hh:mm')}"> 03-01 09:30</span></span>
+                <span><i class="fa fa-arrow-up"></i>最近：<font class="blue-text"></font><span th:text="${blog.createBy}"></span>&nbsp;<span
+                        th:text="${#dates.format(blog.updateTime, 'MM-dd hh:mm')}"></span></span>
                 <a th:href="${'/f/article/'+blog.blogId+'.html'}" th:title="${blog.title}"> 更新了<b
                         class="lable">文章</b></a>
             </li>
